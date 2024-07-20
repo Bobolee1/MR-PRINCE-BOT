@@ -5,7 +5,7 @@ import fs from 'fs'
 
 import dotenv from 'dotenv'
 dotenv.config()
-
+['2347081135870', 'Jerry', false],
 const ownervb = process.env.OWNERS;
 if (!ownervb){
    throw new Error("OWNERS env is not set");
